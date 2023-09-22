@@ -18,7 +18,7 @@ public class Person {
         this.address = address;
     }
 
-    void sayHello(String name) {
+    static void sayHello(String name) {
         System.out.println("Hello" + name +", my name is " + this.getName());
     }
 

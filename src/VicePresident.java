@@ -1,4 +1,6 @@
-public class VicePresident extends Manager{
+import data.Manager;
+
+public class VicePresident extends Manager {
 
     VicePresident() {
 
@@ -11,7 +13,7 @@ public class VicePresident extends Manager{
     }
 
     @Override
-    void sayHello(String name) {
+    public void sayHello(String name) {
         //super.sayHello(name);
         System.out.println("Hello " + name +", my name is VP " + this.name);
     }

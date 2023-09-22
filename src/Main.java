@@ -1,3 +1,5 @@
+import data.*;
+
 public class Main {
     public static void main(String[] args) {
 //        System.out.println("Hello world!");
@@ -30,7 +32,7 @@ public class Main {
 //
 //        putri.sayHello("Farrel", "Bandung");
 //
-//        Manager manager = new Manager();
+//        data.Manager manager = new data.Manager();
 //        manager.name = "Farrel";
 //        manager.sayHello("Putri");
 //
@@ -39,8 +41,7 @@ public class Main {
 //        vicePresident.sayHello("Farrel");
 //        vicePresident.sayHelloParent("Farrel");
 
-        VicePresident putra = new VicePresident("Putra");
-
+        //VicePresident putra = new VicePresident("Putra");
 
 
 
@@ -51,5 +52,23 @@ public class Main {
 //        float v = numberNonPrimitive.floatValue();
 //
 //        float numberPrimitive1 = (float) numberPrimitive;
+
+        Manager manager = new Manager();
+
+
+        Product product = new Product();
+//        product.name = "asd";
+//        System.out.println(product.getName());
+//        product.setName("Laptop");
+        product.setPrice(123);
+
+
+//        Location location = new Location();
+        City city = new City();
+
+
+//        Person person = new Person("Putri");
+//        person.sayHello("Farel");
+        Person.sayHello("Farrel");
     }
 }
